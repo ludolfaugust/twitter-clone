@@ -7,7 +7,7 @@ import Widgets from '../components/Widgets'
 
 const Home: NextPage = () => {
   return (
-    <>
+    <div className='lg:max-w-6xl mx-auto m max-h-screen overflow-hidden'>
       <Head>
         <title>Twitter Clone TS</title>
       </Head>
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
           <Widgets />
       </main>
       
-    </>
+    </div>
   )
 }
 

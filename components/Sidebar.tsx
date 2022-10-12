@@ -5,7 +5,7 @@ import SidebarRow from './SidebarRow'
 
 function Sidebar() {
   return (
-    <div className="flex flex-col col-span-2">
+    <div className="flex flex-col col-span-2 items-center md:items-start m-3">
         <img className="h-10 w-10" src="https://links.papareact.com/drq" />
         <SidebarRow Icon={HomeIcon} title="Home"/>
         <SidebarRow Icon={HashtagIcon} title="Hashtag"/>
